@@ -1,0 +1,47 @@
+{
+  "name": "sequence-positions",
+  "version": "1.0.0",
+  "description": "Resolve all start/end positions at which a given sequence of elements can be found in the array",
+  "repository": "shinnn/ranges-of-sequence",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "prebuild": "eslint --fix --format=codeframe module.js test.js",
+    "build": "rollup --config=node:module",
+    "pretest": "npm run-script build",
+    "test": "istanbul cover test.js"
+  },
+  "license": "MIT",
+  "module": "module.js",
+  "files": [
+    "index.js",
+    "module.js"
+  ],
+  "keywords": [
+    "array",
+    "all",
+    "index",
+    "search",
+    "find",
+    "range",
+    "position",
+    "start",
+    "end",
+    "sequence",
+    "series",
+    "elements"
+  ],
+  "dependencies": {
+    "indexes-of-sequence": "^1.0.3"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config": "^3.3.5",
+    "eslint": "^3.12.2",
+    "istanbul": "^0.4.5",
+    "rollup": "^0.37.2",
+    "rollup-config-module": "^1.0.0",
+    "tape": "^4.6.2"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn"
+  }
+}
