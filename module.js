@@ -1,7 +1,3 @@
-/*!
- * sequence-positions | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/sequence-positions
-*/
 import indexesOfSequence from 'indexes-of-sequence';
 
 export default function sequencePositions(arr, searchValues, fromIndex) {

@@ -2,10 +2,6 @@
 
 var indexesOfSequence = require('indexes-of-sequence');
 
-/*!
- * sequence-positions | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/sequence-positions
-*/
 function sequencePositions(arr, searchValues, fromIndex) {
   var endPositionOffset = searchValues.length - 1;
 

@@ -24,7 +24,7 @@
   "authors": [
     "Shinnosuke Watanabe (https://github.com/shinnn)"
   ],
-  "license": "MIT",
+  "license": "CC0-1.0",
   "dependencies": {
     "indexes-of-sequence": "^1.0.3"
   },
